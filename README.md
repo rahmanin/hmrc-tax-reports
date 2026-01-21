@@ -32,7 +32,8 @@ pnpm install
 pnpm dev
 ```
 
-Frontend should display API is OK 4. Run tests
+Frontend should display API is OK
+4. Run tests
 
 ```bash
 pnpm test
