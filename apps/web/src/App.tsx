@@ -1,6 +1,5 @@
+import type { HealthResponse } from '@hmrc-tax-reports/shared';
 import { useEffect, useState } from 'react';
-
-type HealthResponse = { status: string };
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL as string | undefined;
 

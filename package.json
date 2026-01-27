@@ -8,11 +8,13 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
-    "test": "pnpm -r --filter ./apps/api test"
+    "test": "pnpm -r --filter ./apps/api test",
+    "test:shared": "pnpm --filter ./packages/shared test"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.3",
     "@eslint/js": "^9.39.2",
+    "@types/node": "^25.0.10",
     "@typescript-eslint/eslint-plugin": "^8.53.1",
     "@typescript-eslint/parser": "^8.53.1",
     "eslint": "^9.39.2",
